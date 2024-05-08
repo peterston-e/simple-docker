@@ -1,0 +1,4 @@
+Why Docker
+Before we jump into coding, I want to address why Docker is such a cool and powerful tool to use. My answer to that question (although there are plenty of others) is Containers! I cannot tell you how many times I have created some script or app which runs fine on my local environment, only to then have it break in a hosted setting or when someone else with a different node version, python env etc… tries to run it. With containers you can be sure your code and dependencies are isolated to your container runtime, also you can run containers pretty much anywhere and they can be as fast and lightweight as you want since you get to pick what base image to start from (or create your own if you’re brave).
+
+In short, Docker containers are a great way to isolate, test and deploy your code in a fast and scalable manner, also with the adoption of Kubernetes for managing containers, they are quickly becoming a must know for any new developer.
